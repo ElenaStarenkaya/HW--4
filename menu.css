@@ -1,0 +1,48 @@
+ol {
+    list-style-type: none;
+    list-style-position: inside;
+    background-color: rgb(150, 148, 148);
+    color: white;
+    margin-right: 71pc;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    
+    
+}
+
+li {
+    padding-bottom: 2pc;
+    list-style-position: inside;
+    
+}
+
+span {
+    color: white;
+    /* float: right; */
+    margin: 2pc 0 0 0;
+
+}
+
+.pencil {
+    list-style-image: url(img/edit.png);
+
+}
+
+.heart {
+    list-style-image: url(img/heart.png);
+}
+
+.clock {
+    list-style-image: url(img/clock.png);
+}
+
+.shield {
+    list-style-image: url(img/shield.png);
+}
+
+.switch {
+    list-style-image: url(img/switch.png);
+}
