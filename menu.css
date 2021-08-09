@@ -3,7 +3,7 @@ ol {
     list-style-position: inside;
     background-color: rgb(150, 148, 148);
     color: white;
-    margin-right: 71pc;
+    margin-right: 1500px;
     padding: 30px;
 }
 
@@ -14,15 +14,18 @@ a {
 }
 
 li {
-    padding-bottom: 2pc;
+    padding-bottom: 2px;
     list-style-position: inside;
     
 }
 
 span {
     color: white;
+    /* background-color: yellow; */
     /* float: right; */
-    margin: 2pc 0 0 0;
+    /* padding: 0 0 2px 0; */
+    line-height: 100px;
+    margin-top: -50px;
 
 }
 
