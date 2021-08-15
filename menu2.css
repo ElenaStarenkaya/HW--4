@@ -1,0 +1,51 @@
+
+ul {
+   background-color: rgb(120, 120, 122);
+   width: 300px;
+   padding-bottom: 80px;
+   padding-top: 20px;
+   padding-left: 0px;
+   list-style-position: inside;
+}
+
+li { 
+    padding-bottom: 25px;
+    list-style: none;
+}
+
+li::before {
+    position: relative;
+    top: 20px;       /*выравнивание картинки*/
+    left: -10px;
+}
+
+a {
+    text-decoration: none;
+    vertical-align: 15px; /*выравнивание текста*/
+    color: white;
+}
+
+li:hover {
+    background: rgb(72, 73, 73);
+    cursor: pointer;
+}
+
+.edit::before {
+    content: url(img/edit.png);
+    }
+
+.fav::before {
+    content: url(img/heart.png);
+}
+
+.his::before {
+    content: url(img/clock.png);
+}
+
+.sec::before {
+    content: url(img/shield.png) ;
+}
+
+.set::before {
+    content: url(img/switch.png);
+}
